@@ -1,3 +1,3 @@
 # remortalite.github.io
 
-SIte: remortalite.ml
+Site: https://remortalite.ml
