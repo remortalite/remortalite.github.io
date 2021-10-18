@@ -1,9 +1,15 @@
+:root {
+  --colorPurple: #7833ff; /*#4B0FFF; /*#7547FF; #8d66ff;*/
+  --colorOrange: #ffff99;
+  --colorPink:   #e080ff;
+}
+
 html {
   width: 100%;
 }
 
 body {
-  background: #ffff99;
+  background: var(--colorOrange);
   text-align: center;
   font-size: 1.2em;
   padding: 5px;
@@ -36,18 +42,19 @@ p {
 }
 
 a:link, a:visited {
-  color: #8d66ff;
+  color: var(--colorPurple);
 }
 
 a:hover {
-  color: #e080ff;
+  color: var(--colorPink);
 }
 
 ::selection {
-  color: #8d66ff;
-  background-color: #f3ccff;
+  color: white;
+  color: var(--colorPurple);
+  background-color: var(--colorPink);
 }
 
 #letter {
-  color: #8d66ff;
+  color: var(--colorPurple);
 }
